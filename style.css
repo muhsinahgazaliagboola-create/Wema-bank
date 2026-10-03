@@ -1,0 +1,118 @@
+
+header{
+    width: 100%;
+    height: 70px !important;
+    border: 1px solid;
+}
+header>img{
+    /* border: 1px solid; */
+    width: 200px;
+    /* height: 50px; */
+    margin-left: 70px !important;
+
+}
+.navbar{
+    margin-left: 150px !important;
+    font-size: 14px;
+
+}
+.navbar>a{   
+    text-decoration: none;
+    color: rgb(86, 93, 119);    
+}
+.navbar>a:hover{
+    border: 2px solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+    color: rgb(152, 29, 135);
+    
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 25px !important;
+    background-color: rgb(152, 29, 135) !important;
+    width: 220px;
+    color: white;
+    margin-right: 70px !important;
+    margin-left: auto;
+
+}
+.btn>a{
+    text-decoration: none;
+    color: white;
+}
+.btn>i{
+    filter: invert(1);
+}
+.head-2{
+    height: 60px !important;
+    background-color: rgb(250, 250, 250);
+}
+.navbar-2{
+    margin-left: 70px !important;
+    gap: 20px !important;
+    font-size: 15px;
+
+}
+.navbar-2>a:hover{
+    border: 2px solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+    color: rgb(152, 29, 135);
+    
+}
+.navbar-2>a{
+    text-decoration: none;
+    color:  rgb(86, 93, 119);
+}
+.btn-2{
+    background-color:  rgb(152, 29, 135) !important;
+    width: 30px;
+    display: grid;
+    place-content: center;
+    border-radius: 100%;
+    margin-right: 70px;
+    margin-left: auto;
+}
+.btn-2>i{
+    filter: invert(1);
+}
+.slide1{
+    background-image: url(https://wemabank.com/assets/web-bg-NeQw25Yh.jpg);
+    background-size: cover;
+    /* padding: 50px !important; */
+    height: 600px !important;
+    width: 100% !important;
+}
+.slide2{
+    background-image: url(.slide1);
+    background-image: url(https://wemabank.com/assets/jingle-bg-Db3fxZJc.jpg);
+    background-size: cover;
+    /* padding: 50px !important; */
+    height: 600px !important;
+    width: 100% !important;
+}
+.slide3{
+    background-image: url(.slide1);
+    background-image: url(https://wemabank.com/assets/background-_1WUwQks.jpeg);
+    /* background-size: cover; */
+    /* padding: 50px !important; */
+    height: 600px !important;
+    width: 100% !important;
+}
+
+.img1{
+    margin-left: 70px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.img5{
+    width: 600px;
+}
+.img6{
+    margin-right: 10px;
+}
