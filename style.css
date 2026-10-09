@@ -125,9 +125,26 @@ header>img{
     border-top: 0 !important;
     border-left: 0 !important;
     border-right: 0 !important;
-    text-align: center;
+    /* text-align: center; */
     color: rgb(152, 29, 135);
 }
+.Alat{
+     border: 3px solid;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    /* text-align: center; */
+    color: rgb(152, 29, 135);
+}
+.contact{
+     border: 3px solid;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    /* text-align: center; */
+    color: rgb(152, 29, 135);
+}
+
 
 .careers:hover .dropdowns-1{
     display: flex !important;
@@ -655,7 +672,7 @@ header>img{
 .boxx-container{
      height: 450px !important;
      width: 45% !important;
-     border: 1px solid;
+     /* border: 1px solid; */
      display: grid;
      grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(4, 1fr);
@@ -704,8 +721,9 @@ header>img{
     margin-top: 90px;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 3.5rem;
+    padding-top: 2.5rem;
     align-items: center;
+    position: relative;
 }
 /* =====================================
    FOOTER
